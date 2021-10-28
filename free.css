@@ -13,7 +13,7 @@
     text-align: center;
     border-radius: 50%;
     position: fixed;
-    bottom: 30px;
+    bottom: 50px;
     right: 20px;
     background-color: yellow;
     font-size: 20px;
@@ -24,7 +24,9 @@
 .nav-bal{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+}
+.nav-bal-two{
+    display: flex;
 }
 .nav-small{
     font-size: 30px;
@@ -38,7 +40,6 @@
 }
 .nav-item{
     padding: 20px;
-    font-size: 20px;
 }
 .Free-Analytics{
     border: solid 1px;
@@ -103,7 +104,7 @@
     border:solid 1px #f7f2f2;
     box-shadow:0 2px 15px #888888;
     width: 10%;
-    height: 290px;
+    height: 300px;
     margin: 20px;
     text-align: center;
 }
@@ -389,7 +390,6 @@
     width: 100%;
     height: 30px;
     margin-top: 10px;
-    border-radius: 5px;
 }
 .enter-you-email{
     padding: 10px;
@@ -420,6 +420,258 @@
 }
 .mbr-ed{
     color: #fff;
+}
+.sub-change:hover .variable {
+    background: #898798;
+}
+.variable{
+    line-height: 60px;
+}.sub-change:hover .change{
+    background: #898798;
+    border:solid 1px #898798;
+}
+.change{
+    border-radius: 5px;
+}
+.font-icon{
+    display: none;
+}
+.bg-brow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width : 992px) and (min-width: 768px){
+    .row-align{
+        width: 90%;
+    }
+    .image-one{
+        width: 100%;
+    }
+    .row-lg{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        margin: auto;
+    }
+    .col-bg{
+        width: 50%;
+    }
+    .bag-bj{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .bag-bj-one, .bag-bj-two{
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .mai-business{
+        width: 100%;
+    }
+    .sub-mai-business{
+        width: 50%;
+    }
+    .check-mb{
+        font-size: 35px;
+    }
+    .optimize{
+        font-size: 30px;
+        color: #645F88;
+    }
+    .ignite{
+        font-size: 20px;
+    }
+    .Consultancy{
+        font-size: 20px;
+        color:#645F88;
+    }
+    .sub-bg,.text-small {
+        font-size: 15px;
+    }
+    .OnSite{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .col-hg{
+        width: 100%;
+    } 
+    .check-now{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .row-mt{
+        flex-direction: column;
+        margin: auto;
+        align-items:center;
+    }
+    .card-pricing{
+        width: 30%;
+    }
+    .sitbeo{
+        flex-direction: column;
+    }
+    .waiter{
+        width: 100%;
+    }
+    .sitbeo-two{
+        text-align: center;
+    }
+    .row-image{
+        flex-direction: column;
+        align-items:center;
+    }
+    .index{
+        width: 50%;
+    }
+    .rbg-sc{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sol{
+        width: 100%;
+    }
+    .nav-bal{
+        justify-content: space-between;
+        position: relative;
+    }
+    .font-icon{
+        display: block;
+        position: absolute;
+        right: 10px;
+        border: solid 2px #888888;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .nav-bal-two{
+        flex-direction: column;
+        display: none;
+        top:50px;
+    }
+    .nav-bal:hover .nav-bal-two{
+        display: block;
+    }
+    .fa-align-justify{
+        color: #020202;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .row-align{
+        width: 90%;
+    }
+    .image-one{
+        width: 100%;
+    }
+    .row-lg{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        margin: auto;
+    }
+    .col-bg{
+        width: 50%;
+    }
+    .bag-bj{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .bag-bj-one, .bag-bj-two{
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .mai-business{
+        width: 100%;
+    }
+    .sub-mai-business{
+        width: 100%;
+    }
+    .check-mb{
+        font-size: 35px;
+    }
+    .optimize{
+        font-size: 30px;
+        color: #645F88;
+    }
+    .ignite{
+        font-size: 20px;
+    }
+    .Consultancy{
+        font-size: 20px;
+        color:#645F88;
+    }
+    .sub-bg,.text-small {
+        font-size: 15px;
+    }
+    .OnSite{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .col-hg{
+        width: 100%;
+    } 
+    .check-now{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .row-mt{
+        flex-direction: column;
+        margin: auto;
+        align-items:center;
+    }
+    .card-pricing{
+        width: 30%;
+    }
+    .sitbeo{
+        flex-direction: column;
+    }
+    .waiter{
+        width: 100%;
+    }
+    .sitbeo-two{
+        text-align: center;
+    }
+    .row-image{
+        flex-direction: column;
+        align-items:center;
+    }
+    .index{
+        width: 50%;
+    }
+    .rbg-sc{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sol{
+        width: 100%;
+    }
+    .nav-bal{
+        justify-content: space-between;
+        position: relative;
+    }
+    .font-icon{
+        display: block;
+        position: absolute;
+        right: 10px;
+        border: solid 2px #888888;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .nav-bal-two{
+        flex-direction: column;
+        display: none;
+        top:50px;
+    }
+    .nav-bal:hover .nav-bal-two{
+        display: block;
+    }
+    .fa-align-justify{
+        color: #020202;
+    }
 }
 
 
