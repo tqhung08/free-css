@@ -318,13 +318,14 @@
 }
 .row-image{
     display: flex;
-    justify-content: center;
+    width: 70%;
+    margin: auto;
 }
 .image-five{
     width: 100%;
 }
 .index{
-    margin: 30px;
+    margin: 40px;
     box-shadow: 0 2px 15px #888888;
 }
 .index-sub{
@@ -367,7 +368,7 @@
 }
 .rbg-sc{
     display: flex;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 .social-media{
