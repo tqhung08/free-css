@@ -197,12 +197,10 @@
 }
 .fa-building{
     color: #5950d3;
+    font-size: 20px;
 }
 .distance-sub{
     margin-bottom: 10px;
-}
-.text-small{
-    font-size: 10px;
 }
 .section-four{
     background-image: radial-gradient(circle,#B262F8 15%,#5439F8);
@@ -211,10 +209,11 @@
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 40px;
 }
 .col-hg{
     background: #fff;
-    width: 20%;
+    width: 40%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -225,7 +224,7 @@
     border: solid 1px #ffffff;
 }
 .check-now{
-    padding: 5px;
+    padding: 10px 20px;
     background: #0ddd86;
     color: #ffffff;
     border: solid 1px #ffffff;
@@ -456,6 +455,14 @@
 .the-number{
     margin-bottom: 10px;
 }
+.text-small {
+    font-size: 15px;
+    color: #898798;
+}
+.onsite{
+    font-size: 25px;
+    margin: 15px;
+}
 @media screen and (max-width : 992px) and (min-width: 768px){
     .row-align{
         width: 90%;
@@ -502,7 +509,7 @@
         font-size: 20px;
         color:#645F88;
     }
-    .sub-bg,.text-small {
+    .sub-bg{
         font-size: 15px;
     }
     .OnSite{
@@ -618,7 +625,7 @@
         font-size: 20px;
         color:#645F88;
     }
-    .sub-bg,.text-small {
+    .sub-bg{
         font-size: 15px;
     }
     .OnSite{
