@@ -245,9 +245,11 @@
 }
 .woa-zoomin{
     background-color: #e7e3fe;
+    width: 15%;
 }
 .wow-zoomin{
     background-color: #6c55f9;
+    width: 15%;
 }
 .php{
     width: 100%;
@@ -263,6 +265,7 @@
 }
 .col-fb{
     margin-bottom: 10px;
+    font-size:20px
 }
 .nav-hl{
     padding-top: 10px;
@@ -271,10 +274,12 @@
 .nav-sub{
     background-color: #B8B4D5;
     height: 30px;
+    margin: 20px 0;
 }
 .nav-ribe{
     background-color: #fff;
     height: 30px;
+    margin: 20px 0;
 }
 .contact{
     line-height: 30px;
@@ -463,6 +468,36 @@
     font-size: 25px;
     margin: 15px;
 }
+.keywords{
+    color: #a4a1c8;
+}
+.Campaign{
+    color: #D7D5E9;
+}
+.smail-number{
+    font-size: 20px;
+    color: #C9C7DC;
+}
+.pricing-plan{
+    color: #898798;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.plan{
+    font-size:40px;
+    color: #645F88;
+}
+.per-month{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.title-five{
+    padding: 5px 0;
+}
+.basic{
+    font-size: 20px;
+    color: #645F88;
+}
 @media screen and (max-width : 992px) and (min-width: 768px){
     .row-align{
         width: 90%;
@@ -577,7 +612,6 @@
     .fa-align-justify{
         color: #020202;
     }
-
 }
 @media screen and (max-width:768px) {
     .row-align{
