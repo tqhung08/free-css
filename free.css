@@ -103,10 +103,19 @@
     background: #f7f2f2;
     border:solid 1px #f7f2f2;
     box-shadow:0 2px 15px #888888;
-    width: 10%;
-    height: 300px;
+    width: 15%;
+    height: 100%;
     margin: 20px;
     text-align: center;
+}
+.Consultancy{
+    font-size: 20px;
+}
+.total{
+    padding: 10px;
+}
+.sub-change{
+    height: 30px;
 }
 .sub-bg{
     text-align: center;
@@ -118,7 +127,8 @@
     font-size: 15px;
 }
 .distance{
-    margin: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 .erase{
     text-decoration: none;
@@ -127,7 +137,7 @@
 .read-more{
     border:solid 1px #592ee8;
     background: #592ee8;
-    padding: 10px;
+    padding: 10px 20px;
 }
 .bag-bj{
     display: flex;
@@ -141,6 +151,7 @@
     width: 50px;
     height: 3px;
     background-color:#592ee8;
+    margin-bottom: 10px;
 }
 .bag-bj-two{
     width: 50%;
@@ -442,6 +453,9 @@
     width: 100%;
     height: 100%;
 }
+.the-number{
+    margin-bottom: 10px;
+}
 @media screen and (max-width : 992px) and (min-width: 768px){
     .row-align{
         width: 90%;
@@ -673,6 +687,7 @@
         color: #020202;
     }
 }
+
 
 
 
