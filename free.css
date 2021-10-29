@@ -7,15 +7,18 @@
     width: 100%;
     margin: auto;
 }
+.font-font{
+    font-family: 'Work Sans', sans-serif;
+}
 .move{
-    border: solid 2px yellow;
+    border: solid 2px gray;
     width: 30px;
     text-align: center;
     border-radius: 50%;
     position: fixed;
     bottom: 50px;
     right: 20px;
-    background-color: yellow;
+    background-color: gray;
     font-size: 20px;
 }
 .nav-bar{
@@ -39,19 +42,19 @@
     color: #592ee8;
 }
 .nav-item{
-    padding: 20px;
+    padding: 10px 20px;
 }
 .Free-Analytics{
     border: solid 1px;
     background-color: #592ee8;
     color: white;
-    border-radius: 15px;
+    border-radius: 10px;
     box-sizing: border-box;
 }
 .row-align{
     display: flex;
     background-color: #f7f2f2;
-    width: 50%;
+    width: 60%;
     margin: auto;
     border: solid 1px #f7f2f2;
     border-radius: 20px;
@@ -105,7 +108,7 @@
     box-shadow:0 2px 15px #888888;
     width: 15%;
     height: 100%;
-    margin: 20px;
+    margin: 40px;
     text-align: center;
 }
 .Consultancy{
@@ -141,7 +144,7 @@
 }
 .bag-bj{
     display: flex;
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 .bag-bj-one{
@@ -159,6 +162,8 @@
 }
 .image-three{
     width: 90%;
+    border: solid 1px white;
+    border-radius: 20px;
 }
 .section-three{
     background: #f7f2f2;
@@ -281,6 +286,9 @@
     height: 30px;
     margin: 20px 0;
 }
+.Newsletter{
+    font-weight: 500;
+}
 .contact{
     line-height: 30px;
     text-decoration: none;
@@ -351,6 +359,7 @@
     color: #898798;
     font-size: 20px;
     font-weight: 300;
+    letter-spacing: 3px;
 }
 .read-latest-news{
     font-size: 40px;
@@ -441,13 +450,14 @@
     background: #898798;
 }
 .variable{
-    line-height: 60px;
+    line-height: 45px;
 }.sub-change:hover .change{
     background: #898798;
     border:solid 1px #898798;
 }
 .change{
     border-radius: 5px;
+    padding: 10px 20px;
 }
 .font-icon{
     display: none;
@@ -460,6 +470,9 @@
 }
 .the-number{
     margin-bottom: 10px;
+    font-weight: 100;
+    color: #645F88;
+    font-size: 40px;
 }
 .text-small {
     font-size: 15px;
@@ -487,6 +500,7 @@
 .plan{
     font-size:40px;
     color: #645F88;
+    font-weight: 100;
 }
 .per-month{
     font-size: 20px;
@@ -498,6 +512,62 @@
 .basic{
     font-size: 20px;
     color: #645F88;
+}
+.conten-x{
+    font-size: 20px;
+    font-weight: 100;
+}
+.consetetur {
+    color: #898798;
+    font-size: 20px;
+}
+.about-us{
+    letter-spacing: 3px;
+    color: #898798;
+    font-weight: 100;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.our-servicer{
+    color: #898798;
+    font-weight: 500;
+    font-size: 20px;
+}
+.can-help{
+    font-size: 40px;
+    font-weight: 500;
+    color: #645F88;
+}
+.improve{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+}
+.pope-title {
+    color: #898798;
+    font-weight: 500;
+}
+.optimize{
+    color: #645F88; 
+    font-weight: 100; 
+    line-height: 50px;
+    font-size: 40px;
+}
+.ignite{
+    font-size: 20px;
+    color: #8e8aad;
+}
+.Consultancy {
+    font-size: 20px;
+    color: #645F88;
+}
+.sub-bg{
+    font-size: 15px;
+    color: #898798;
+}
+.check-mb{
+    font-size: 35px;
+    font-weight: 500;
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
     .row-align{
@@ -544,9 +614,6 @@
     .Consultancy{
         font-size: 20px;
         color:#645F88;
-    }
-    .sub-bg{
-        font-size: 15px;
     }
     .OnSite{
         font-size: 20px;
@@ -616,7 +683,8 @@
 }
 @media screen and (max-width:768px) {
     .row-align{
-        width: 90%;
+        width: 70%;
+        flex-direction: column-reverse;
     }
     .image-one{
         width: 100%;
@@ -644,24 +712,16 @@
         width: 100%;
     }
     .sub-mai-business{
-        width: 100%;
-    }
-    .check-mb{
-        font-size: 35px;
+        width: 50%;
     }
     .optimize{
-        font-size: 30px;
+        font-size: 40px;
         color: #645F88;
+        font-weight: 100;
+        line-height: 50px;
     }
     .ignite{
         font-size: 20px;
-    }
-    .Consultancy{
-        font-size: 20px;
-        color:#645F88;
-    }
-    .sub-bg{
-        font-size: 15px;
     }
     .OnSite{
         font-size: 20px;
@@ -680,7 +740,7 @@
         align-items:center;
     }
     .card-pricing{
-        width: 30%;
+        width: 40%;
     }
     .sitbeo{
         flex-direction: column;
@@ -696,7 +756,7 @@
         align-items:center;
     }
     .index{
-        width: 50%;
+        width: 60%;
     }
     .rbg-sc{
         flex-direction: column;
@@ -727,6 +787,24 @@
     }
     .fa-align-justify{
         color: #020202;
+    }
+    .row-align-one,.row-align-two{
+        width: 80%;
+    }
+    .nav-small{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .about-us{
+        color: #898798;
+        font-size: 20px;
+    }
+    .the-number{
+        font-size: 30px;
+    }
+    .consetetur{
+        color: gray;
+        font-size: 20px;
     }
 }
 
