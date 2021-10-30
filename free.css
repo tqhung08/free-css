@@ -7,6 +7,7 @@
     width: 100%;
     margin: auto;
 }
+
 .font-font{
     font-family: 'Work Sans', sans-serif;
 }
@@ -20,6 +21,7 @@
     right: 20px;
     background-color: gray;
     font-size: 20px;
+    
 }
 .nav-bar{
     padding: 20px;
@@ -75,10 +77,10 @@
     margin-bottom: 20px;
 }
 .watch-video{
-    width: 110px;
+    width: 125px;
     border:solid 1px #592ee8;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px 20px;
     background: #5950d3;
 }
 .page-banner{
@@ -270,7 +272,7 @@
 }
 .col-fb{
     margin-bottom: 10px;
-    font-size:20px
+    font-size:15px
 }
 .nav-hl{
     padding-top: 10px;
@@ -484,6 +486,7 @@
 }
 .keywords{
     color: #a4a1c8;
+    font-size: 15px;
 }
 .Campaign{
     color: #D7D5E9;
@@ -505,6 +508,7 @@
 .per-month{
     font-size: 20px;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 .title-five{
     padding: 5px 0;
@@ -519,7 +523,7 @@
 }
 .consetetur {
     color: #898798;
-    font-size: 20px;
+    font-size: 15px;
 }
 .about-us{
     letter-spacing: 3px;
@@ -549,17 +553,19 @@
 }
 .optimize{
     color: #645F88; 
-    font-weight: 100; 
+    font-weight: 500; 
     line-height: 50px;
     font-size: 40px;
 }
 .ignite{
-    font-size: 20px;
+    font-size: 18px;
     color: #8e8aad;
+    font-weight: 500;
 }
 .Consultancy {
     font-size: 20px;
     color: #645F88;
+    font-weight: 500;
 }
 .sub-bg{
     font-size: 15px;
