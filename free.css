@@ -679,7 +679,6 @@
     }
     .nav-bal-two{
         flex-direction: column;
-        width: 100%;
         display: none;
         display: flex;
     }
@@ -687,7 +686,7 @@
         color: #020202;
     }
     .turn:hover .nav-bal-two{
-        display: block;
+        display: flex;
     }
     .turn{
         width: 100%;
