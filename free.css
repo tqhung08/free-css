@@ -666,6 +666,7 @@
     .nav-bal{
         justify-content: space-between;
         position: relative;
+        flex-wrap: wrap;
     }
     .font-icon{
         display: block;
@@ -674,17 +675,22 @@
         border: solid 2px #888888;
         border-radius: 5px;
         padding: 10px;
+        top:0;
     }
     .nav-bal-two{
         flex-direction: column;
+        width: 100%;
         display: none;
-        top:50px;
-    }
-    .nav-bal:hover .nav-bal-two{
-        display: block;
+        display: flex;
     }
     .fa-align-justify{
         color: #020202;
+    }
+    .turn:hover .nav-bal-two{
+        display: block;
+    }
+    .turn{
+        width: 100%;
     }
 }
 @media screen and (max-width:768px) {
@@ -813,8 +819,3 @@
         font-size: 20px;
     }
 }
-
-
-
-
-
