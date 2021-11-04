@@ -464,12 +464,6 @@
 .font-icon{
     display: none;
 }
-.bg-brow{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
 .the-number{
     margin-bottom: 10px;
     font-weight: 100;
@@ -680,16 +674,15 @@
     .nav-bal-two{
         flex-direction: column;
         display: none;
-        display: flex;
     }
     .fa-align-justify{
         color: #020202;
     }
-    .turn:hover .nav-bal-two{
-        display: flex;
-    }
     .turn{
         width: 100%;
+    }
+    .turn:hover .nav-bal-two{
+        display: flex;
     }
 }
 @media screen and (max-width:768px) {
